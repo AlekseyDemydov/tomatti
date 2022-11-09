@@ -1,0 +1,157 @@
+.footer {
+  background-image: url(../images/footerBg.png);
+  // height: 740px;
+  position: relative;
+  padding: 200px 88px 88px 88px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 138px 32px 50px 32px;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+  }
+  &-section {
+    display: flex;
+    padding: 0 0 60px 0;
+    @media (min-width: 320px) and (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
+  &-logo {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  &-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px 0 0 0;
+    @media (min-width: 320px) and (max-width: 480px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    &-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+      @media (min-width: 320px) and (max-width: 480px) {
+        margin-bottom: 22px;
+      }
+    }
+  }
+  &-firstBox {
+    margin-right: 216px;
+    @media (min-width: 320px) and (max-width: 480px) {
+      margin: 0 0 44px 0;
+    }
+    &-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.66);
+      width: 324px;
+      margin-bottom: 84px;
+      @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 40px 0;
+      }
+    }
+    &-icon {
+      @media (min-width: 320px) and (max-width: 480px) {
+        width: 56px;
+        display: flex;
+      }
+      &-for {
+        cursor: pointer;
+        fill: white;
+        &:not(:last-child) {
+          margin-right: 12px;
+        }
+        &:hover {
+          fill: rgba(0, 0, 0, 0.08);
+        }
+      }
+    }
+  }
+  &-secondBox {
+    margin-right: 148px;
+    @media (min-width: 320px) and (max-width: 480px) {
+     
+      margin-right: 0;
+    }
+    &-text {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #2cc03e;
+      margin-bottom: 14px;
+      @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 15px;
+        line-height: 24px;
+        margin: 0 0 14px 0;
+        margin-right: 0;
+      }
+    }
+    &-link {
+      display: flex;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 38px;
+      letter-spacing: -1px;
+      color: #ffffff;
+      @media screen and (min-width: 480px) {
+        &:not(:last-child) {
+          margin-bottom: 36px;
+        }
+      }
+
+      @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 32px;
+        line-height: 36px;
+        margin: 0 0 40px 0;
+      }
+    }
+  }
+  &-thirdBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    &-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      text-decoration-line: underline;
+      text-underline-offset: 2px;
+      color: #ffffff;
+      &:not(:last-child) {
+        margin-bottom: 28px;
+      }
+      @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 20px;
+        line-height: 28px;
+        &:not(:last-child) {
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+}
+.scrollTop {
+  cursor: pointer;
+  stroke: white;
+  fill: white;
+
+  &:hover {
+    stroke: rgba(78, 231, 80, 1);
+  }
+}

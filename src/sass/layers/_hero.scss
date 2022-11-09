@@ -1,0 +1,91 @@
+.hero {
+  position: relative;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  padding-top: 172px;
+  padding-left: 88px;
+  padding-bottom: 69px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 108px 20px 410px 20px;
+    background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  }
+}
+.greenBg {
+  position: absolute;
+  top: 94px;
+  left: 786px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    // position: relative;
+    left: 40px;
+    top: 440px;
+    width: 315px;
+  }
+}
+.first {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 0 36px 0;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  @media (min-width: 320px) and (max-width: 480px) {
+    line-height: 24px;
+  }
+}
+.title {
+  color: white;
+  font-weight: 500;
+  font-size: 84px;
+  width: 560px;
+  line-height: 82px;
+  margin: 0 0 38px 0;
+  span {
+    color: rgba(78, 231, 80, 1);
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 50px;
+    line-height: 52px;
+    width: 339px;
+  }
+}
+
+.second {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.66);
+  width: 518px;
+  margin: 0;
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
+}
+.scrollDown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  stroke: white;
+  fill: white;
+  margin-top: 94px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-top: 42px;
+  }
+
+  &:hover {
+    stroke: rgba(78, 231, 80, 1);
+    color: rgba(78, 231, 80, 1);
+  }
+}
+.arrr {
+  margin-right: 20px;
+}

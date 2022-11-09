@@ -1,37 +1,126 @@
-<article class="example" id="uk">
-  <h1>HTML-partials</h1>
+<section id="example" class="example">
+  <p class="example-smallTitle">Кейсы использования</p>
+  <h2 class="example-title">
+    <span>Примеры</span> использования нашего продукта
+  </h2>
 
-  <!--
-    ❗️❗️❗️ The path to images from the HTML partial
-    is the same as from the index.html file
-  -->
-  <img src="images/logo.png" alt="" width="320" />
+  <div class="ex">
+    <button class="ex-btn-prev">
+      <svg class="ex-btn" width="26" height="26">
+        <use href="./images/arrowLeft.svg#arrLeft"></use>
+      </svg>
+    </button>
 
-  <p>
-    The
-    <a
-      href="https://github.com/posthtml/posthtml-include"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      posthtml-include
-    </a>
-    plugin allows you to add code from other HTML files (fragments) to HTML page
-    files. Fragments are stored in the <code>src/partials</code> folder. The
-    addition occurs when compiling page files, such as <code>index.html</code>.
-  </p>
+    <div class="ex-beet">
+      <div class="ex-beet-over">
+        <button class="ex-beet-btn active">Офисы и бизнес центры</button>
+        <button class="ex-beet-btn">Больницы</button>
+        <button class="ex-beet-btn">Учебные заведения</button>
+        <button class="ex-beet-btn">Магазины</button>
+        <button class="ex-beet-btn">Фермерские хозяйства</button>
+      </div>
+    </div>
 
-  <p>
-    This <code>example.html</code> file is an example of such a snippet, with
-    the markup of a certain part of the main page. This is very convenient for
-    team development on student projects, when several people write in one HTML
-    file at once.
-  </p>
+    <button class="ex-btn-next">
+      <svg class="ex-btn" width="26" height="26">
+        <use href="./images/arrowRight.svg#arrRigh"></use>
+      </svg>
+    </button>
+  </div>
+  <img src="./images/arch.png" alt="" class="ex-arch" />
+  <div class="imgWrapper">
+    <div class="imgWrapper-line">
+      <img src="./images/ofice.png" alt="" class="imgWrapper-img change" />
+      <img src="./images/hospital.png" alt="" class="imgWrapper-img" />
+      <img src="./images/people.png" alt="" class="imgWrapper-img" />
+      <img src="./images/shop.png" alt="" class="imgWrapper-img" />
+      <img src="./images/bigHaus.png" alt="" class="imgWrapper-img" />
+    </div>
+  </div>
+  <div class="tap-wrapper">
+    <div class="tap-line">
+      <div class="tap change">
+        <h3 class="tap-info">Офисы и бизнес центры</h3>
+        <p class="tap-text">
+          Не во всех предприятиях и компаниях есть возможность полноценно
+          поесть. Стандартное вендинговое оборудование ограничивается напитками
+          и снеками. <br />
+          <br />
+          Наши аппараты могут предложить отличное дополнение к уже доступному
+          выбору продуктов или обеспечить полноценное круглосуточное питание для
+          сотрудников и гостей офисов и предприятий.
+        </p>
+      </div>
+      <div class="tap">
+        <h3 class="tap-info">Больницы</h3>
+        <p class="tap-text">
+          В больницах невозможно предложить услугу кафетерия в любое время
+          суток, а торговые автоматы предлагают очень ограниченное меню.
+          <br />
+          <br />
+          Наши аппараты можно разместить в общих помещениях и в помещениях для
+          персонала. Наши холодильники могут предложить быстрые и полезные
+          закуски, а также правильное питание. Идеально подходит, как для
+          персонала, так и для посетителей.
+        </p>
+      </div>
+      <div class="tap">
+        <h3 class="tap-info">Учебные заведения</h3>
+        <p class="tap-text">
+          В учебных корпусах часто есть столовые и кафе в которых студенты могут
+          полноценно поесть или перекусить, но время их работы ограничено.
+          <br />
+          <br />
+          Наши аппараты могут обеспечить круглосуточный доступ студентов и
+          персонала к продуктам питания. Также наши витрины могут продавать
+          другие необходимые для студентов товары, такие как канцтовары,
+          гигиенические средства и т.д.
+        </p>
+      </div>
+      <div class="tap">
+        <h3 class="tap-info">Магазины</h3>
+        <p class="tap-text">
+          Разработанная нашей командой система управления позволяет организовать
+          в одном месте работу неограниченного количества аппаратов. <br />
+          <br />
+          Это позволяет создать полноценный магазин самообслуживания и сэкономит
+          ваши деньги на персонале. Вам необходимо только загрузить товар в
+          оборудование и реализация будет происходить без вас 24/7.
+        </p>
+      </div>
+      <div class="tap">
+        <h3 class="tap-info">Фермерские хозяйства</h3>
+        <p class="tap-text">
+          Для фермерских хозяйств мы предлагаем сократить расстояние до клиента,
+          работать с ним напрямую и увеличить свои продажи и прибыль.
+          <br />
+          <br />
+          Вам не надо нанимать и контролировать реализаторов. Вы просто
+          упаковываете вашу продукцию и загружаете в холодильник. Всё остальное
+          система сделает за вас!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="ex-dot-wrapper">
+    <div class="ex-dot activeDot"></div>
+    <div class="ex-dot"></div>
+    <div class="ex-dot"></div>
+    <div class="ex-dot"></div>
+    <div class="ex-dot"></div>
+    <div class="ex-wrapper-name">
+      <div class="ex-line-name">
+        <p class="ex-name change">Больницы</p>
 
-  <p>
-    The syntax for adding a fragment to the main file is:
-    <code> &lt;include src="./partials/filename.html"&gt;&lt;/include&gt;</code>
-  </p>
+        <p class="ex-name">Учебные заведения</p>
 
-  <div class="background"></div>
-</article>
+        <p class="ex-name">Магазины</p>
+
+        <p class="ex-name">Фермерские хозяйства</p>
+
+        <p class="ex-name">Офисы и бизнес центры</p>
+      </div>
+    </div>
+    <img src="./images/Arrow_Right-W.png" alt="" class="btnRight" />
+  </div>
+</section>

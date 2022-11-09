@@ -1,0 +1,118 @@
+.header {
+  box-sizing: border-box;
+  display: inline-flex;
+  position: fixed;
+  top: 24px;
+  margin-left: 88px;
+  display: flex;
+  width: 1264px;
+  height: 64px;
+  background-color: rgba(6, 6, 6, 0.78);
+  border-radius: 40px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
+}
+.burger {
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  background-color: rgba(6, 6, 6, 0.78);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  align-items: center;
+  padding: 2px 0 12px 0;
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
+}
+.logo {
+  margin-left: 28px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-left: 16px;
+  }
+}
+.connect {
+  background: linear-gradient(162.3deg, #4ee750 8.13%, #00a92e 100.14%);
+  border-radius: 40px;
+  padding: 16px 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 4px;
+  &:hover {
+    color: #68d849;
+    background: #ffffff;
+    box-shadow: 0px 4px 0px rgba(44, 192, 62, 0.06);
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 16px 0 38px;
+  }
+}
+.item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  cursor: pointer;
+  &:hover {
+    color: #68d849;
+  }
+}
+.overlay {
+  position: absolute;
+  top: 61px;
+  background-color: rgba(255, 0, 0, 0);
+  width: 375px;
+  height: 100vh;
+  transition: 1s;
+  opacity: 1;
+}
+.navigation {
+  background-image: url(../images/bgBurger.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 116px 20px 26px 20px;
+  height: 100vh;
+  border-radius: 20px 20px 0 0;
+  &-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 18px 0;
+  }
+  &-icon {
+    margin-top: 29px;
+    text-align: center;
+    &-for {
+      cursor: pointer;
+      &:not(:last-child){
+        margin-right: 12px;
+      }
+    }
+  }
+}
+.hide {
+  top: 880px;
+  opacity: 0;
+  pointer-events: none;
+}

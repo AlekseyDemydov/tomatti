@@ -1,2 +1,12 @@
-@import './common';
-@import './example';
+// @import './common';
+@import './base';
+
+@import './layers/header';
+@import './layers/burger';
+@import './layers/hero';
+@import './layers/howItWork';
+@import './layers/function';
+@import './layers/why';
+@import './layers/example';
+@import './layers/arguments';
+@import './layers/footer';
