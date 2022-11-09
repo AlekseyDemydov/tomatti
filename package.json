@@ -1,11 +1,11 @@
 {
-  "name": "tomattii",
+  "name": "tomatti",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AlekseyDemydov.github.io/tomattii",
+  "homepage": "https://AlekseyDemydov.github.io/tomatti",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /tomattii/"
+    "build": "parcel build src/*.html --public-url /tomatti/"
   },
   "repository": {
     "type": "git",
