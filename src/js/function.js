@@ -15,7 +15,7 @@ const btnR = document.querySelector('.btnR');
 let position = 0;
 const sliderWidth=lineItem[1].getBoundingClientRect().width
 let positionImg = 0;
-const imgWidth=imgSlWhy.getBoundingClientRect().width
+const imgWidth=imgArch.getBoundingClientRect().width
 let positionName = 0;
 let dotIndex = 0;
 
