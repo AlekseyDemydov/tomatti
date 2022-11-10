@@ -2,7 +2,7 @@ const sliderLine = document.querySelector('.slider-line');
 const lineItem=document.querySelectorAll('.line-item')
 const imgLine=document.querySelector('.img-line')
 const imgArch=document.querySelector('.arch')
-const imgSlWhy=document.querySelector('.imgSlWhy')
+
 const lineImg=document.querySelectorAll('.line-img')
 const sliderLineName = document.querySelector('.slider-line-name');
 const lineName = document.querySelectorAll('.line-name');

@@ -2,7 +2,7 @@ const sliderLine = document.querySelector('.tap-line');
 const sliderWrapper = document.querySelector('.tap-wrapper');
 const lineItem=document.querySelectorAll('.tap')
 const imgArch=document.querySelector('.ex-arch')
-const imgSl=document.querySelector('.imgSl')
+
 const imgLine=document.querySelector('.imgWrapper-line')
 const lineImg=document.querySelectorAll('.imgWrapper-img')
 const sliderLineName = document.querySelector('.ex-line-name');
