@@ -2,10 +2,12 @@
   "name": "tomatti",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AlekseyDemydov.github.io/tomatti",
+
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /tomatti/"
+    "build": "parcel build src/*.html --public-url /tomatti/",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "repository": {
     "type": "git",
