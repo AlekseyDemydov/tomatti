@@ -2,6 +2,7 @@ const sliderLine = document.querySelector('.slider-line');
 const lineItem=document.querySelectorAll('.line-item')
 const imgLine=document.querySelector('.img-line')
 const imgArch=document.querySelector('.arch')
+const imgSlWhy=document.querySelector('.imgSlWhy')
 const lineImg=document.querySelectorAll('.line-img')
 const sliderLineName = document.querySelector('.slider-line-name');
 const lineName = document.querySelectorAll('.line-name');
@@ -14,7 +15,7 @@ const btnR = document.querySelector('.btnR');
 let position = 0;
 const sliderWidth=lineItem[1].getBoundingClientRect().width
 let positionImg = 0;
-const imgWidth=imgArch.getBoundingClientRect().width
+const imgWidth=imgSlWhy.getBoundingClientRect().width
 let positionName = 0;
 let dotIndex = 0;
 

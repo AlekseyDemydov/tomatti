@@ -2,6 +2,7 @@ const sliderLine = document.querySelector('.tap-line');
 const sliderWrapper = document.querySelector('.tap-wrapper');
 const lineItem=document.querySelectorAll('.tap')
 const imgArch=document.querySelector('.ex-arch')
+const imgSl=document.querySelector('.imgSl')
 const imgLine=document.querySelector('.imgWrapper-line')
 const lineImg=document.querySelectorAll('.imgWrapper-img')
 const sliderLineName = document.querySelector('.ex-line-name');
@@ -15,11 +16,11 @@ const btnR = document.querySelector('.btnRight');
 let position = 0;
 const slidWidth=sliderWrapper.getBoundingClientRect().width
 let positionImg = 0;
-const imgWid=imgArch.getBoundingClientRect().width
+const imgWid=imgSl.getBoundingClientRect().width
 let positionName = 0;
 const nameWidt=lineName[1].getBoundingClientRect().width
 let dotIndex = 0; 
-console.log(slidWidth, 'slidWidthexample')
+console.log(slidWidth, 'slidWidthexample') 
 console.log(imgWid, 'imgWidexample')
 console.log(nameWidt, 'nameWidtexample')
 const nextSlide = () => {
