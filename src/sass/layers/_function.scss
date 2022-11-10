@@ -35,6 +35,7 @@
 .arch {
   position: absolute;
   bottom: 0;
+  width: 518px;
   @media (min-width: 320px) and (max-width: 480px) {
     width: 315px;
   }
@@ -291,9 +292,4 @@
 .change {
   animation: see 1500ms 0s linear;
   opacity: 1;
-}
-.imgSlWhy {
-  
-  width: 518px;
-  
 }
