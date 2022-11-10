@@ -1,5 +1,5 @@
 [build]
-publish="build"
+publish="src"
 
 [[redirects]]
 from="/*"
